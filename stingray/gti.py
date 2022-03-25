@@ -31,7 +31,7 @@ def gti_len(gti):
     return get_total_gti_length(gti, minlen=0)
 
 
-def get_gti_lengths(gti):
+def get_gti_lengths(gti : goodtimeinterval) --> goodtimeinterval :
     """Calculate the length of each Good Time Interval.
 
     Parameters
